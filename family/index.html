@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITC Movie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./pic/logo.png">
+    <script>
+        function goToPage() {
+            window.location.href = "./film.html";
+        }
+    </script>
+</head>
+<body>
+    <nav>
+        <a href="#"><img src="./pic/logo.png" alt="logo"></a>
+    </nav>
+        <div class="from-wrapper">
+            <h2>Sing In</h2>
+            <form action="#">
+                <div class="form-control">
+                    <input type="text" required>
+                    <label>Email or phone number</label>
+                </div>
+                <div class="form-control">
+                    <input type="password" required>
+                    <label>password</label>
+                </div>
+                <button type="submit" onclick="goToPage()">Sign in </button>
+                <div class="form-help">
+                    <div class="remmber-me">
+                        <input type="checkbox" id="remember me">
+                        <label for="remember me">Remember me</label>
+                    </div>
+                    <a href="#">Need help?</a>
+                </div>
+            </form>
+            <p>New to ITC Movies? <a href="#">Sign up now</a></p>
+            <small>
+                This page is protected by Google reCAPTCHA to ensure you are not a bot.
+                <a href="#">learn more.</a>
+            </small>
+        </div>
+    
+</body>
+</html>
